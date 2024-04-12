@@ -59,3 +59,8 @@ const html = `
   </body>
 </html>
 `
+
+apps.get('/timestamp', (req, res) => {
+  res.send(`Current Time: ${Date.now()}`);
+});
+
