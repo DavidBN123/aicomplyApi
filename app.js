@@ -60,7 +60,7 @@ const html = `
 </html>
 `
 
-apps.get('/timestamp', (req, res) => {
+app.get('/timestamp', (req, res) => {
   res.send(`Current Time: ${Date.now()}`);
 });
 
